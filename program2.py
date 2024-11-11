@@ -23,7 +23,7 @@ class Solution(object):
                 res -= cur
             else:
                 res += cur
-             prev = cur
+            prev = cur
     
         return res
 
