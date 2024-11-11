@@ -7,7 +7,7 @@ class Solution(object):
         st = []
         brackets = {')': '(', '}': '{', ']': '['}
         for char in s:
-            if char in matching_brackets:
+            if char in brackets:
                 if not st or st.pop() != brackets[char]:
                     return False
             else:
