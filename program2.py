@@ -25,7 +25,7 @@ class Solution(object):
                 res += cur
              prev = cur
     
-    return res
+        return res
 
 
         pass
